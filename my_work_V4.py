@@ -35,6 +35,7 @@ def ticker_list():
 
 
 import re
+
 def data_list(number):
     company_url=url_check()
     second_url = "https://kr.investing.com" + company_url[number] + "-financial-summary"
